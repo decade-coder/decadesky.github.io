@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>themeNextGuide</title>
+    <url>/2020/03/21/themeNextGuide/</url>
+    <content><![CDATA[<h1 id="给博客添加fork"><a href="#给博客添加fork" class="headerlink" title="给博客添加fork"></a>给博客添加fork</h1><ol>
+<li>打开 <a href="http://tholman.com/github-corners/" target="_blank" rel="noopener">http://tholman.com/github-corners/</a></li>
+<li>选择一个喜欢的样式拷贝</li>
+<li>打开theme/next/layout/_layout.swig</li>
+<li>将复制内容粘贴在<code>&lt;div class=&quot;headband&quot;&gt;&lt;/div&gt;</code>代码后</li>
+</ol>
+<h1 id="修改文章内链接样式"><a href="#修改文章内链接样式" class="headerlink" title="修改文章内链接样式"></a>修改文章内链接样式</h1><ol>
+<li>打开 theme/next/source/css/_common/components/post/post.styl</li>
+<li>最下面添加代码<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">.post-body a&#123;</span><br><span class="line">  border-bottom: none;</span><br><span class="line">  &amp;:hover&#123;</span><br><span class="line">    color: purple;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+</li>
+</ol>
+<h1 id="修改文章底部带-的标签"><a href="#修改文章底部带-的标签" class="headerlink" title="修改文章底部带#的标签"></a>修改文章底部带#的标签</h1><ol>
+<li>打开theme/next/layout/_macro/post.swig</li>
+<li>359行左右,将<code># </code>前的#替换为<code>&lt;i class=&quot;fas fa-tag&quot;&gt;&lt;/i&gt;</code></li>
+</ol>
+<h1 id="配置Valine评论功能"><a href="#配置Valine评论功能" class="headerlink" title="配置Valine评论功能"></a>配置Valine评论功能</h1><ol>
+<li>修改主题目录配置文件_config.yml</li>
+<li>定位到valine</li>
+<li>enable改为true</li>
+<li>从leancloud获取appid和appkey</li>
+<li>其它配置看文档 <a href="https://valine.js.org" target="_blank" rel="noopener">https://valine.js.org</a></li>
+</ol>
+<h1 id="配置来必力评论"><a href="#配置来必力评论" class="headerlink" title="配置来必力评论"></a>配置来必力评论</h1><ol>
+<li>来必力官网: <a href="https://livere.com/" target="_blank" rel="noopener">https://livere.com/</a></li>
+<li>安装City免费版本</li>
+<li>获取代码管理中data-uid的值</li>
+<li>打开主题的_config.yml文件定位到<strong>livere_uid</strong></li>
+<li>将<strong>fulivere_uid</strong>的值设置为<strong>livere_uid</strong></li>
+</ol>
+<h1 id="配置Gitment评论"><a href="#配置Gitment评论" class="headerlink" title="配置Gitment评论"></a>配置Gitment评论</h1><p>暂不使用该评论</p>
+<h1 id="搜索功能"><a href="#搜索功能" class="headerlink" title="搜索功能"></a>搜索功能</h1><ol>
+<li>nexT官网-&gt;第三方服务-&gt;搜索服务-&gt;Local Search</li>
+<li><code>npm install hexo-generator-searchdb --save</code></li>
+<li>站点配置文件增加以下代码<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">search:</span><br><span class="line">  path: search.xml</span><br><span class="line">  field: post</span><br><span class="line">  format: html</span><br><span class="line">  limit: 10000</span><br></pre></td></tr></table></figure></li>
+<li>主题配置文件定位到<strong>local_search</strong>,将其值设为<strong>true</strong></li>
+</ol>
+<h1 id="配置不蒜子统计功能"><a href="#配置不蒜子统计功能" class="headerlink" title="配置不蒜子统计功能"></a>配置不蒜子统计功能</h1>]]></content>
+      <categories>
+        <category>博客</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>MarkDown语法</title>
+    <url>/2020/03/21/mDSyntaxGuide/</url>
+    <content><![CDATA[<ol>
+<li>兼容HTML</li>
+<li>特殊字符自动转换<ol>
+<li>&lt; : &lt;</li>
+<li>&amp; : &amp;</li>
+</ol>
+</li>
+<li>标题<ol>
+<li>1到6个#</li>
+<li>任何数量的=或-</li>
+</ol>
+</li>
+<li>引用<ol>
+<li>&gt;</li>
+<li>数量不同，嵌套数不同</li>
+<li>区块内可用其他md语法</li>
+</ol>
+</li>
+<li>列表<ol>
+<li>*或- : d无序列表</li>
+<li>数字 + . : 有序列表</li>
+</ol>
+</li>
+<li>代码区块<ol>
+<li>缩进4个空格或一个制表符</li>
+<li>注意代码区块的分隔，否则会无效</li>
+</ol>
+</li>
+<li>分割线<ol>
+<li>三个以上的*或-或=</li>
+<li>行内可有空格，但不能有其他符号</li>
+</ol>
+</li>
+<li>链接<ol>
+<li>行内式:方括号后紧接圆括号并插入网址链接，也可在网址后面加上title，title用双引号包起来</li>
+<li>参考式<ol>
+<li>[id]: <a href="http://example.com/" target="_blank" rel="noopener">http://example.com/</a> “Optional Title Here”</li>
+<li>This is [an example][id] reference-style link.</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>强调<ol>
+<li>倾斜: 用一个*或_包围会被转成用&lt;em&gt;标签包围</li>
+<li>加粗: 用两个*或_包围会被转成用&lt;strong&gt;标签包围</li>
+</ol>
+</li>
+<li>代码<ol>
+<li>标记小段行内代码: 用反引号``包起来</li>
+<li>多行用```包裹</li>
+<li>代码区段内使用反引号，可以用多个反引号来做最外层包装，起区分作用</li>
+</ol>
+</li>
+<li>图片<ol>
+<li>行内式<ol>
+<li>惊叹号 + 方括号（图片的替代文字）+ 普通括号（图片网址）+ [“title文字”]</li>
+<li><img src="/path/to/img.jpg" alt="Alt text" title="Optional title"></li>
+</ol>
+</li>
+<li>参考式<ol>
+<li>[id]: url/to/image  “Optional title attribute”</li>
+<li>![Alt text][id]</li>
+<li>可使用img标签书写指定宽高的图片</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>语言</category>
+      </categories>
+      <tags>
+        <tag>MarkDown</tag>
+        <tag>基本语法</tag>
+      </tags>
+  </entry>
+</search>
