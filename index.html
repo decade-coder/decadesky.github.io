@@ -80,11 +80,15 @@
 
 
 <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
+<meta property="og:title" content="一十">
 <meta property="og:url" content="http://yoursite.com/index.html">
-<meta property="og:site_name" content="Hexo">
+<meta property="og:site_name" content="一十">
 <meta property="og:locale" content="en_US">
-<meta property="article:author" content="John Doe">
+<meta property="article:author" content="DecadeLand">
+<meta property="article:tag" content="博客">
+<meta property="article:tag" content="前端">
+<meta property="article:tag" content="后端">
+<meta property="article:tag" content="C语言">
 <meta name="twitter:card" content="summary">
 
 
@@ -121,7 +125,7 @@
 
 
 
-  <title>Hexo</title>
+  <title>一十</title>
   
 
 
@@ -152,12 +156,12 @@
     <div class="custom-logo-site-title">
       <a href="/"  class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
-        <span class="site-title">Hexo</span>
+        <span class="site-title">一十</span>
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
       
-        <p class="site-subtitle"></p>
+        <p class="site-subtitle">二介</p>
       
   </div>
 
@@ -178,7 +182,7 @@
       
         
         <li class="menu-item menu-item-home">
-          <a href="/%20" rel="section">
+          <a href="/" rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
             
@@ -188,7 +192,7 @@
       
         
         <li class="menu-item menu-item-archives">
-          <a href="/archives/%20" rel="section">
+          <a href="/archives/" rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
             
@@ -229,16 +233,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/03/20/%E7%AC%AC%E4%B8%80%E5%A4%A9/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/03/21/mDSyntaxGuide/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="John Doe">
+      <meta itemprop="name" content="DecadeLand">
       <meta itemprop="description" content="">
       <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Hexo">
+      <meta itemprop="name" content="一十">
     </span>
 
     
@@ -248,7 +252,7 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2020/03/20/%E7%AC%AC%E4%B8%80%E5%A4%A9/" itemprop="url">第一天</a></h1>
+                <a class="post-title-link" href="/2020/03/21/mDSyntaxGuide/" itemprop="url">MarkDown语法</a></h1>
         
 
         <div class="post-meta">
@@ -260,8 +264,8 @@
               
                 <span class="post-meta-item-text">Posted on</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2020-03-20T18:12:55+08:00">
-                2020-03-20
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2020-03-21T09:34:31+08:00">
+                2020-03-21
               </time>
             
 
@@ -300,7 +304,81 @@
       
         
           
-            
+            <ol>
+<li>兼容HTML</li>
+<li>特殊字符自动转换<ol>
+<li>&lt; : &lt;</li>
+<li>&amp; : &amp;</li>
+</ol>
+</li>
+<li>标题<ol>
+<li>1到6个#</li>
+<li>任何数量的=或-</li>
+</ol>
+</li>
+<li>区块引用<ol>
+<li>&gt;</li>
+<li>数量不同，嵌套数不同</li>
+<li>区块内可用其他md语法</li>
+</ol>
+</li>
+<li>列表<ol>
+<li>* : d无序列表</li>
+<li>数字 + . : 有序列表</li>
+</ol>
+</li>
+<li>代码区块<ol>
+<li>缩进4个空格或一个制表符</li>
+<li>注意代码区块的分隔，否则会无效</li>
+</ol>
+</li>
+<li>分割线<ol>
+<li>三个以上的*或-或=</li>
+<li>行内可有空格，但不能有其他符号</li>
+</ol>
+</li>
+<li>区块元素<ol>
+<li>链接<ol>
+<li>行内式:方括号或紧接圆括号并插入网址链接，也可在网址后面加上title，title用双引号包起来</li>
+<li>参考式<ol>
+<li>[id]: <a href="http://example.com/" target="_blank" rel="noopener">http://example.com/</a> “Optional Title Here”</li>
+<li>This is [an example][id] reference-style link.</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>强调<ol>
+<li>用一个*或_包围会被转成用&lt;em&gt;标签包围</li>
+<li>用两个*或_包围会被转成用&lt;strong&gt;标签包围</li>
+</ol>
+</li>
+<li>代码<ol>
+<li>标记小段行内代码: 用反引号``包起来</li>
+<li>代码区段内使用反引号，可以用多个反引号来做最外层包装，起区分作用</li>
+</ol>
+</li>
+<li>图片<ol>
+<li>行内式<ol>
+<li>惊叹号 + 方括号（图片的替代文字）+ 普通括号（图片网址）+ [“title文字”]</li>
+<li><img src="/path/to/img.jpg" alt="Alt text" title="Optional title"></li>
+</ol>
+</li>
+<li>参考式<ol>
+<li>[id]: url/to/image  “Optional title attribute”</li>
+<li>![Alt text][id]</li>
+<li>可使用img标签书写指定狂傲的图片</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>其它<ol>
+<li><a href="http://example.com/" target="_blank" rel="noopener">http://example.com/</a></li>
+</ol>
+</li>
+</ol>
+
           
         
       
@@ -348,16 +426,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/03/20/hello-world/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/03/21/themeNextGuide/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="John Doe">
+      <meta itemprop="name" content="DecadeLand">
       <meta itemprop="description" content="">
       <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Hexo">
+      <meta itemprop="name" content="一十">
     </span>
 
     
@@ -367,7 +445,7 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2020/03/20/hello-world/" itemprop="url">Hello World</a></h1>
+                <a class="post-title-link" href="/2020/03/21/themeNextGuide/" itemprop="url">themeNextGuide</a></h1>
         
 
         <div class="post-meta">
@@ -379,8 +457,8 @@
               
                 <span class="post-meta-item-text">Posted on</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2020-03-20T18:09:13+08:00">
-                2020-03-20
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2020-03-21T09:30:31+08:00">
+                2020-03-21
               </time>
             
 
@@ -419,20 +497,7 @@
       
         
           
-            <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
+            
           
         
       
@@ -502,7 +567,7 @@
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
-              <p class="site-author-name" itemprop="name">John Doe</p>
+              <p class="site-author-name" itemprop="name">DecadeLand</p>
               <p class="site-description motion-element" itemprop="description"></p>
           </div>
 
@@ -511,7 +576,7 @@
             
               <div class="site-state-item site-state-posts">
               
-                <a href="/archives/%20%7C%7C%20archive">
+                <a href="/archives/%7C%7Carchive">
               
                   <span class="site-state-item-count">2</span>
                   <span class="site-state-item-name">posts</span>
@@ -558,7 +623,7 @@
   <span class="with-love">
     <i class="fa fa-user"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">John Doe</span>
+  <span class="author" itemprop="copyrightHolder">DecadeLand</span>
 
   
 </div>
