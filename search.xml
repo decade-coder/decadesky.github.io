@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Vue</title>
+    <url>/2020/03/22/vue-records/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>IT</category>
+      </categories>
+      <tags>
+        <tag>框架</tag>
+        <tag>前端</tag>
+        <tag>Vue</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>themeNextGuide</title>
     <url>/2020/03/21/themeNextGuide/</url>
     <content><![CDATA[<h1 id="给博客添加fork"><a href="#给博客添加fork" class="headerlink" title="给博客添加fork"></a>给博客添加fork</h1><ol>
@@ -63,11 +76,13 @@
 <li><code>npm i hexo-wordcount --save</code></li>
 <li>设置主题配置文件<strong>post_wordcount</strong>的<strong>wordcount</strong>和<strong>min2read</strong>值为true</li>
 </ol>
-<h1 id="鼠标点击效果"><a href="#鼠标点击效果" class="headerlink" title="鼠标点击效果"></a>鼠标点击效果</h1><h1 id="当前时间展示"><a href="#当前时间展示" class="headerlink" title="当前时间展示"></a>当前时间展示</h1><h1 id="菜单的数量统计"><a href="#菜单的数量统计" class="headerlink" title="菜单的数量统计"></a>菜单的数量统计</h1><h1 id="菜单的圆角效果-有bug"><a href="#菜单的圆角效果-有bug" class="headerlink" title="菜单的圆角效果(有bug)"></a>菜单的圆角效果(有bug)</h1>]]></content>
+<h1 id="鼠标点击效果"><a href="#鼠标点击效果" class="headerlink" title="鼠标点击效果"></a>鼠标点击效果</h1><h1 id="代码雨背景特效"><a href="#代码雨背景特效" class="headerlink" title="代码雨背景特效"></a>代码雨背景特效</h1><h1 id="当前时间展示"><a href="#当前时间展示" class="headerlink" title="当前时间展示"></a>当前时间展示</h1><h1 id="菜单的数量统计"><a href="#菜单的数量统计" class="headerlink" title="菜单的数量统计"></a>菜单的数量统计</h1><h1 id="音乐播放"><a href="#音乐播放" class="headerlink" title="音乐播放"></a>音乐播放</h1><h1 id="菜单的圆角效果-有bug"><a href="#菜单的圆角效果-有bug" class="headerlink" title="菜单的圆角效果(有bug)"></a>菜单的圆角效果(有bug)</h1>]]></content>
       <categories>
-        <category>博客</category>
+        <category>IT</category>
       </categories>
       <tags>
+        <tag>框架</tag>
+        <tag>博客</tag>
         <tag>Hexo</tag>
       </tags>
   </entry>
@@ -144,11 +159,10 @@
 </ol>
 ]]></content>
       <categories>
-        <category>语言</category>
+        <category>IT</category>
       </categories>
       <tags>
         <tag>MarkDown</tag>
-        <tag>基本语法</tag>
       </tags>
   </entry>
 </search>
