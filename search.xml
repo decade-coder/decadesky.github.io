@@ -48,6 +48,7 @@
 <h1 id="分享服务-有问题"><a href="#分享服务-有问题" class="headerlink" title="分享服务(有问题)"></a>分享服务(有问题)</h1><ol>
 <li>主题配置文件定位到<strong>jiathis</strong></li>
 <li><strong>jiathis</strong>值设为true</li>
+<li>该分享方式已关闭</li>
 </ol>
 <h1 id="加载效果"><a href="#加载效果" class="headerlink" title="加载效果"></a>加载效果</h1><ol>
 <li>定位到主题配置文件<strong>pace</strong></li>
@@ -66,11 +67,6 @@
 <h1 id="字数统计和阅读时长"><a href="#字数统计和阅读时长" class="headerlink" title="字数统计和阅读时长"></a>字数统计和阅读时长</h1><ol>
 <li><code>npm i hexo-wordcount --save</code></li>
 <li>设置主题配置文件<strong>post_wordcount</strong>的<strong>wordcount</strong>和<strong>min2read</strong>值为true</li>
-</ol>
-<ol>
-<li>菜单图标</li>
-<li>分享</li>
-<li>标签图标显示异常</li>
 </ol>
 ]]></content>
       <categories>

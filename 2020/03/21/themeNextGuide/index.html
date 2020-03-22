@@ -93,7 +93,7 @@
 <meta property="og:site_name" content="一十">
 <meta property="og:description" content="给博客添加fork 打开 http:&#x2F;&#x2F;tholman.com&#x2F;github-corners&#x2F; 选择一个喜欢的样式拷贝 打开theme&#x2F;next&#x2F;layout&#x2F;_layout.swig 将复制内容粘贴在&lt;div class&#x3D;&quot;headband&quot;&gt;&lt;&#x2F;div&gt;代码后  修改文章内链接样式 打开 theme&#x2F;next&#x2F;source&#x2F;css&#x2F;_common&#x2F;c">
 <meta property="article:published_time" content="2020-03-21T09:45:18.000Z">
-<meta property="article:modified_time" content="2020-03-21T14:14:30.783Z">
+<meta property="article:modified_time" content="2020-03-22T00:50:03.314Z">
 <meta property="article:author" content="DecadeLand">
 <meta property="article:tag" content="Hexo">
 <meta name="twitter:card" content="summary">
@@ -200,7 +200,7 @@
         <li class="menu-item menu-item-home">
           <a href="/" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-question-circle"></i> <br />
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
             
             首页
           </a>
@@ -210,7 +210,7 @@
         <li class="menu-item menu-item-categories">
           <a href="/categories" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-question-circle"></i> <br />
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
             
             分类
           </a>
@@ -220,7 +220,7 @@
         <li class="menu-item menu-item-archives">
           <a href="/archives" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-question-circle"></i> <br />
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
             
             归档
           </a>
@@ -230,7 +230,7 @@
         <li class="menu-item menu-item-tags">
           <a href="/tags" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-question-circle"></i> <br />
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
             
             标签
           </a>
@@ -240,7 +240,7 @@
         <li class="menu-item menu-item-about">
           <a href="/about" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-question-circle"></i> <br />
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
             
             关于
           </a>
@@ -411,7 +411,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  535
+                  529
                 </span>
               
 
@@ -493,6 +493,7 @@
 <h1 id="分享服务-有问题"><a href="#分享服务-有问题" class="headerlink" title="分享服务(有问题)"></a>分享服务(有问题)</h1><ol>
 <li>主题配置文件定位到<strong>jiathis</strong></li>
 <li><strong>jiathis</strong>值设为true</li>
+<li>该分享方式已关闭</li>
 </ol>
 <h1 id="加载效果"><a href="#加载效果" class="headerlink" title="加载效果"></a>加载效果</h1><ol>
 <li>定位到主题配置文件<strong>pace</strong></li>
@@ -511,11 +512,6 @@
 <h1 id="字数统计和阅读时长"><a href="#字数统计和阅读时长" class="headerlink" title="字数统计和阅读时长"></a>字数统计和阅读时长</h1><ol>
 <li><code>npm i hexo-wordcount --save</code></li>
 <li>设置主题配置文件<strong>post_wordcount</strong>的<strong>wordcount</strong>和<strong>min2read</strong>值为true</li>
-</ol>
-<ol>
-<li>菜单图标</li>
-<li>分享</li>
-<li>标签图标显示异常</li>
 </ol>
 
       
@@ -606,32 +602,6 @@
 
     <div class="post-spread">
       
-        <!-- JiaThis Button BEGIN -->
-<div class="jiathis_style">
-<span class="jiathis_txt">分享到：</span>
-<a class="jiathis_button_fav">收藏夹</a>
-<a class="jiathis_button_copy">复制网址</a>
-<a class="jiathis_button_email">邮件</a>
-<a class="jiathis_button_weixin">微信</a>
-<a class="jiathis_button_qzone">QQ空间</a>
-<a class="jiathis_button_tqq">腾讯微博</a>
-<a class="jiathis_button_douban">豆瓣</a>
-<a class="jiathis_button_share">一键分享</a>
-
-<a href="http://www.jiathis.com/share?uid=2140465" class="jiathis jiathis_txt jiathis_separator jtico jtico_jiathis" target="_blank">更多</a>
-<a class="jiathis_counter_style"></a>
-</div>
-<script type="text/javascript" >
-var jiathis_config={
-  data_track_clickback:true,
-  summary:"",
-  shortUrl:false,
-  hideMore:false
-}
-</script>
-<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=" charset="utf-8"></script>
-<!-- JiaThis Button END -->
-      
     </div>
   </div>
 
@@ -695,7 +665,7 @@ var jiathis_config={
             
               <div class="site-state-item site-state-posts">
               
-                <a href="/archives">
+                <a href="/archives%7C%7C%20archive">
               
                   <span class="site-state-item-count">2</span>
                   <span class="site-state-item-name">日志</span>
@@ -745,24 +715,6 @@ var jiathis_config={
           
 
           
-          
-            <div class="links-of-blogroll motion-element links-of-blogroll-block">
-              <div class="links-of-blogroll-title">
-                <i class="fa  fa-fw fa-link"></i>
-                Links
-              </div>
-              <ul class="links-of-blogroll-list">
-                
-                  <li class="links-of-blogroll-item">
-                    <a href="https://github.com/decadesky" title="外链1" target="_blank">外链1</a>
-                  </li>
-                
-                  <li class="links-of-blogroll-item">
-                    <a href="https://github.com/decadesky" title="外链2" target="_blank">外链2</a>
-                  </li>
-                
-              </ul>
-            </div>
           
 
           
@@ -879,9 +831,10 @@ var jiathis_config={
   
 
 
+
+
   
-
-
+  
 
 
 
@@ -923,7 +876,12 @@ var jiathis_config={
 
   
   
-    <script type="text/javascript" src="/lib/canvas-nest/canvas-nest.min.js"></script>
+    <script type="text/javascript" src="/lib/three/three.min.js"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/three/three-waves.min.js"></script>
   
 
 
@@ -1005,8 +963,8 @@ var jiathis_config={
         notify: false,
         appId: 'b2xwloEqzaUhElpWEM5oeA35-gzGzoHsz',
         appKey: 'Kvo89YbkNF0JhzAKaqTLTBIw',
-        placeholder: 'Just go go',
-        avatar:'mm',
+        placeholder: '评论一下吧',
+        avatar:'mp',
         guest_info:guest,
         pageSize:'10' || 10,
     });
