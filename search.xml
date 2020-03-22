@@ -45,20 +45,15 @@
 <li>打开themes/next/layout/third-party/analytics/busuanzi-counter.swig </li>
 <li>对比不蒜子官网将script的src的属性进行更改即可</li>
 </ol>
-<h1 id="分享服务-有问题"><a href="#分享服务-有问题" class="headerlink" title="分享服务(有问题)"></a>分享服务(有问题)</h1><ol>
+<h1 id="分享服务"><a href="#分享服务" class="headerlink" title="分享服务"></a>分享服务</h1><ol>
 <li>主题配置文件定位到<strong>jiathis</strong></li>
 <li><strong>jiathis</strong>值设为true</li>
-<li>该分享方式已关闭</li>
+<li>该分享方式已关闭,推荐使用百度分享</li>
 </ol>
 <h1 id="加载效果"><a href="#加载效果" class="headerlink" title="加载效果"></a>加载效果</h1><ol>
 <li>定位到主题配置文件<strong>pace</strong></li>
 <li>将<strong>pace</strong>设为true</li>
 <li><strong>pace_theme</strong>设置为偏爱效果</li>
-</ol>
-<h1 id="点击爆炸效果-暂不需要"><a href="#点击爆炸效果-暂不需要" class="headerlink" title="点击爆炸效果(暂不需要)"></a>点击爆炸效果(暂不需要)</h1><ol>
-<li>themes/next/source/js/src/目录下新建一个fireworks.js文件</li>
-<li>themes/next/layout/_layout.swig<strong></body></strong>前加上代码<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure></li>
-<li>主题配置文件新增配置<code>fireworks: true</code></li>
 </ol>
 <h1 id="隐藏底部的强力驱动"><a href="#隐藏底部的强力驱动" class="headerlink" title="隐藏底部的强力驱动"></a>隐藏底部的强力驱动</h1><ol>
 <li>首选方案:主题配置文件的<strong>power</strong>和<strong>theme</strong>值设为false</li>
@@ -68,7 +63,7 @@
 <li><code>npm i hexo-wordcount --save</code></li>
 <li>设置主题配置文件<strong>post_wordcount</strong>的<strong>wordcount</strong>和<strong>min2read</strong>值为true</li>
 </ol>
-]]></content>
+<h1 id="鼠标点击效果"><a href="#鼠标点击效果" class="headerlink" title="鼠标点击效果"></a>鼠标点击效果</h1><h1 id="当前时间展示"><a href="#当前时间展示" class="headerlink" title="当前时间展示"></a>当前时间展示</h1><h1 id="菜单的数量统计"><a href="#菜单的数量统计" class="headerlink" title="菜单的数量统计"></a>菜单的数量统计</h1><h1 id="菜单的圆角效果-有bug"><a href="#菜单的圆角效果-有bug" class="headerlink" title="菜单的圆角效果(有bug)"></a>菜单的圆角效果(有bug)</h1>]]></content>
       <categories>
         <category>博客</category>
       </categories>
