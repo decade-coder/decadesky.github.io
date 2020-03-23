@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>test3</title>
+    <url>/2020/03/test3/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>test2</title>
+    <url>/2020/03/23/test2/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
     <title>Vue</title>
-    <url>/2020/03/22/vue-records/</url>
+    <url>/2020/03/vue-records/</url>
     <content><![CDATA[]]></content>
       <categories>
         <category>IT</category>
@@ -15,7 +25,7 @@
   </entry>
   <entry>
     <title>themeNextGuide</title>
-    <url>/2020/03/21/themeNextGuide/</url>
+    <url>/2020/03/themeNextGuide/</url>
     <content><![CDATA[<h1 id="给博客添加fork"><a href="#给博客添加fork" class="headerlink" title="给博客添加fork"></a>给博客添加fork</h1><ol>
 <li>打开 <a href="http://tholman.com/github-corners/" target="_blank" rel="noopener">http://tholman.com/github-corners/</a></li>
 <li>选择一个喜欢的样式拷贝</li>
@@ -88,7 +98,7 @@
   </entry>
   <entry>
     <title>MarkDown语法</title>
-    <url>/2020/03/21/mDSyntaxGuide/</url>
+    <url>/2020/03/mDSyntaxGuide/</url>
     <content><![CDATA[<ol>
 <li>兼容HTML</li>
 <li>特殊字符自动转换<ol>
