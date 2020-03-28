@@ -1,19 +1,280 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>test3</title>
-    <url>/2020/03/test3/</url>
-    <content><![CDATA[]]></content>
+    <title>计划</title>
+    <url>/2020/03/plan/28/</url>
+    <content><![CDATA[<ol type="1">
+<li>公务员 + 事业单位</li>
+<li>C语言</li>
+<li>机器学习-&gt;深度学习-&gt;flyai</li>
+<li>线性代数</li>
+<li>Vue全家桶 + NodeJs + MySql</li>
+</ol>
+]]></content>
+      <categories>
+        <category>学习计划</category>
+      </categories>
   </entry>
   <entry>
-    <title>test2</title>
-    <url>/2020/03/23/test2/</url>
-    <content><![CDATA[]]></content>
+    <title>止于此</title>
+    <url>/2020/03/diary/28/</url>
+    <content><![CDATA[<h1 id="作词">作词</h1>
+<p>高野</p>
+<h1 id="类型">类型</h1>
+<p>当代诗歌</p>
+<h1 id="正文">正文</h1>
+<p>这已是我的天涯。</p>
+<p>进，看不见幸福。</p>
+<p>退，看不见你。</p>
+<p>止于此。</p>
+<p>春便还是春，夏便还是夏。</p>
+<p>爱，止于此。</p>
+<p>心，也止于此</p>
+<p>风止于秋水，我止于你</p>
+]]></content>
+      <categories>
+        <category>诗歌</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>linearAlgebra</title>
+    <url>/2020/03/linearAlgebra/28/</url>
+    <content><![CDATA[<h1 id="线性代数">线性代数</h1>
+]]></content>
+      <categories>
+        <category>数学</category>
+        <category>线性代数</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>machineLearningSummary</title>
+    <url>/2020/03/machineLearningSummary/28/</url>
+    <content><![CDATA[<h1 id="派别">派别</h1>
+<ol type="1">
+<li>频率派&gt;统计机器学习</li>
+<li>贝叶斯派&gt;概率图模型</li>
+</ol>
+<h1 id="书籍">书籍</h1>
+<blockquote>
+<p>书籍侧重点用数字表示表示 1. 李航的统计学习方法,口诀:感K朴决逻,支提E隐条[<strong>1</strong>] 2. 周志华的&quot;西瓜书&quot; 3. PRML,口诀:回分神核稀,图混近采连,顺组[<strong>2</strong>] 4. MLAPP[<strong>2</strong>] 5. ESL[<strong>1</strong>] 6. Deep Learning圣经,针对深度学习</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>IT</category>
+        <category>机器学习</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>斯坦福机器学习课程——设置编程环境</title>
+    <url>/2020/03/machineLearnEnv/26/</url>
+    <content><![CDATA[<h1 id="这个机器学习的课程包括几个你需要完成的编程任务这些任务需要octave或matlab科学计算语言">这个机器学习的课程包括几个你需要完成的编程任务。这些任务需要Octave或MATLAB科学计算语言。</h1>
+<ol type="1">
+<li>Octave是一个免费、开源的应用。它拥有一个文本接口以及一个实验图形化接口。</li>
+<li>MATLAB是一个专有软件。但是针对本套课程有一个免费的受限制的版本可以使用。</li>
+</ol>
+<h1 id="在windows下安装octavematlab">在Windows下安装Octave/MATLAB</h1>
+<ol type="1">
+<li>使用这个链接来在Windows安装Octave<a href="http://wiki.octave.org/Octave_for_Microsoft_Windows" target="_blank" rel="noopener" class="uri">http://wiki.octave.org/Octave_for_Microsoft_Windows</a></li>
+<li>在Windows下Octave能用来提交本课程的编程任务，但是需要安装一个在论坛区中的补丁。查看更多你当前版本的补丁信息，参见<a href="https://www.coursera.org/learn/machine-learning/discussions/vgCyrQoMEeWv5yIAC00Eog?page=2" target="_blank" rel="noopener" class="uri">https://www.coursera.org/learn/machine-learning/discussions/vgCyrQoMEeWv5yIAC00Eog?page=2</a></li>
+</ol>
+<h1 id="在windows下安装matlab">在Windows下安装MATLAB</h1>
+<blockquote>
+<p>暂不用</p>
+</blockquote>
+<h1 id="更多资源">更多资源</h1>
+<h2 id="octave资源">Octave资源</h2>
+<p>在Octave命令行下，输入help跟上一个函数名来展示这个函数的说明文档。例如:help plot将呼起一个有关测绘(plotting)的帮助信息。更多的信息，请见文档页<a href="https://octave.org/doc/interpreter/" target="_blank" rel="noopener" class="uri">https://octave.org/doc/interpreter/</a></p>
+<h2 id="matlab资源">MATLAB资源</h2>
+<p>在MATLAB命令行下，输入help跟上一个函数名来展示这个函数的说明文档。例如:help plot将呼起一个有关测绘(plotting)的帮助信息。更多的信息，请见文档页<a href="https://ww2.mathworks.cn/help/matlab/?w.mathworks.com" target="_blank" rel="noopener" class="uri">https://ww2.mathworks.cn/help/matlab/?w.mathworks.com</a></p>
+]]></content>
+      <categories>
+        <category>IT</category>
+      </categories>
+      <tags>
+        <tag>MachineLearning</tag>
+        <tag>env</tag>
+        <tag>Octave</tag>
+        <tag>MatLab</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>jsExp</title>
+    <url>/2020/03/jsExp/25/</url>
+    <content><![CDATA[<h1 id="tostring">toString</h1>
+<ol type="1">
+<li>Object的原型方法</li>
+<li>使用Object.prototype.toString.call(obj)检测对象类型,而不用typeof,因为typeof不能准确的判断一个对象变量的类型，如typeof null结果为'object',数组的结果也为'object';</li>
+</ol>
+<h2 id="不能直接通过待检测数据调用tostring方法检测类型">不能直接通过待检测数据调用toString方法检测类型</h2>
+<ol type="1">
+<li>因为非对象数据类型的toString方法被重写</li>
+<li>删除了非对象数据类型被重写的toString方法后,再次调用toString方法可确保调用的是Object的toString方法</li>
+</ol>
+<h2 id="string">String()</h2>
+<ol type="1">
+<li>toString()和String()都是将数据转换为对应的字符串</li>
+<li>String()可以将任何类型的值转换为字符串,String()不能接受数值基数作为参数]</li>
+</ol>
+<h2 id="instanceof">instanceof</h2>
+]]></content>
+      <categories>
+        <category>IT</category>
+        <category>经验</category>
+      </categories>
+      <tags>
+        <tag>JavaScript</tag>
+        <tag>类型转换</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>OJTerms</title>
+    <url>/2020/03/oJTerms/24/</url>
+    <content><![CDATA[<p>#OJ术语</p>
+<p>| 简写 | 全称 | 中文名称 | | :---: | :---: | :---: | | OJ | Online Judge | 在线判题系统 | | AC | Accepted | 通过 | | WA | Wrong Answer | 答案错误 | | TLE | Time Limit Exceed | 超时 | | OLE | Output Limit Exceed | 超过输出限制 | | MLE | Memory Limit Exceed | 超内存 | | RE | Runtime Error | 运行时错误 | | PE | Presentation Error | 格式错误 | | CE | Compile Error | 无法编译 |</p>
+]]></content>
+      <categories>
+        <category>IT</category>
+      </categories>
+      <tags>
+        <tag>OJ</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>歌词</title>
+    <url>/2020/03/diary/23/</url>
+    <content><![CDATA[<p>有人天生为王,有人落草为寇</p>
+]]></content>
+      <categories>
+        <category>美言</category>
+      </categories>
+      <tags>
+        <tag>歌词</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>C程序设计(第5版)</title>
+    <url>/2020/03/cProgdesign/23/</url>
+    <content><![CDATA[<h1 id="第一章-程序设计和c语言">第一章 程序设计和C语言</h1>
+<h2 id="什么是计算机程序">什么是计算机程序</h2>
+<p>程序: 就是一组计算机能识别和执行的指令</p>
+<h2 id="什么是计算机语言">什么是计算机语言</h2>
+<p>计算机语言: 计算机和人都能识别的语言 发展阶段: 1. 机器语言 1. 机器指令: 计算机能直接识别和接受的二进制代码 2. 机器语言: 机器指令的集合 2. 符号语言 1. 用一些英文字母和数字表示一个指令,例如用ADD代表&quot;加&quot; 2. 计算机不能直接<strong>识别</strong>和<strong>执行</strong>符号语言的指令，需要用一种称为<strong>汇编程序</strong>的<strong>软件</strong>把符号语言的指令转换为机器指令,转换的过程称为<strong>代真</strong>或<strong>汇编</strong>,因此符号语言又称为<strong>符号汇编语言</strong>或<strong>汇编语言</strong> 3. 不同型号的计算机的机器语言和汇编语言是互不通用的,机器语言和汇编语言是完全依赖于具体机器特性的,是面向机器的语言;因为二者&quot;贴近&quot;计算机,故称之为<strong>低级语言</strong> 3. 高级语言 1. 为了克服低级语言的缺点，20世纪50年代创造了第一个计算机高级语言————FORTRAN 2. 语言功能强,不依赖于具体机器 3. 高级语言编写的程序(源程序)通过<strong>编译程序</strong>的软件转换为机器指令的程序(目标程序)再运行得到结果 4. 阶段: 非结构化语言-&gt;结构化语言-&gt;面向对象的语言</p>
+<h2 id="c语言的发展及其特点">C语言的发展及其特点</h2>
+<h2 id="最简单的c语言程序">最简单的C语言程序</h2>
+<h3 id="最简单的c语言程序举例">最简单的C语言程序举例</h3>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">int main()&#123;</span><br><span class="line">  printf(&quot;This is a C program.\n&quot;);</span><br><span class="line">  return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<ol type="1">
+<li>每一个C语言程序都必须有一个main函数</li>
+<li>stdio.h是系统提供的文件名,stdio是standard input &amp; output 的缩写,后缀.h代表头文件(因为这些文件都是放在程序各文件模块开头的)</li>
+<li>程序中用到标准函数库中的输入输出函数,应该在本文件模块的开头加上<code>#include &lt;stdio.h&gt;</code></li>
+<li>多用注释</li>
+<li>注释方法</li>
+<li>//开始,换行结束</li>
+<li>/*开始,*/结束</li>
+<li>字符串中只是作为字符串的一部分 &gt;在函数定义前使用函数,需要先声明 &gt;&amp;是地址符,&amp;a表示变量a的地址</li>
+</ol>
+<h3 id="c语言程序的结构">C语言程序的结构</h3>
+<ol type="1">
+<li>一个程序由一个或多个源程序文件组成</li>
+<li>预处理指令</li>
+<li>全局声明</li>
+<li>函数定义</li>
+<li>函数是C程序的主要组成部分</li>
+<li>一个函数包括两部分</li>
+<li>函数首部:函数类型+函数名+函数属性+函数参数名+参数类型</li>
+<li>函数体:声明部分+执行部分</li>
+<li>程序总是从main函数开始执行的</li>
+<li>程序中要求计算机的操作是由函数中的C语句完成的</li>
+<li>在每个数据声明和语句的最后必须有一个分号</li>
+<li>C语言本身不提供输入输出语句(由库函数scanf和printf完成)</li>
+<li>程序应当包含注释</li>
+</ol>
+<h2 id="运行c程序的步骤与方法">运行C程序的步骤与方法</h2>
+<h2 id="程序设计的任务">程序设计的任务</h2>
+<ol type="1">
+<li>问题分析</li>
+<li>设计算法</li>
+<li>编写程序</li>
+<li>对源程序进行编辑,编译和连接</li>
+<li>运行程序并分析结果</li>
+<li>编写程序文档</li>
+</ol>
+<h1 id="第二章-算法程序的灵魂">第二章 算法——程序的灵魂</h1>
+<h2 id="程序算法数据结构">程序=算法+数据结构</h2>
+<h2 id="什么是算法">什么是算法</h2>
+<p>广义地说,算法就是为解决一个问题而采取的方法和步骤</p>
+<h2 id="简单的算法举例">简单的算法举例</h2>
+<ol type="1">
+<li>闰年判断条件</li>
+<li>能被4整除,但不能被100整除</li>
+<li>能被400整除</li>
+</ol>
+<h2 id="算法的特性">算法的特性</h2>
+<ol type="1">
+<li>一个有效的算法的特点</li>
+<li>有穷性:有合理有限的操作步骤</li>
+<li>确定性:步骤确定</li>
+<li>有零个或多个输入:</li>
+<li>有一个或多个输出:</li>
+<li>有效性:步骤能够有效的执行</li>
+</ol>
+<h2 id="怎样表示一个算法">怎样表示一个算法</h2>
+<h2 id="自然语言">自然语言</h2>
+<p>文字冗长,易产生歧义</p>
+<h3 id="流程图">流程图</h3>
+<p>直观形象,易于理解</p>
+<h3 id="三种基本结构和改进的流程图">三种基本结构和改进的流程图</h3>
+<ol type="1">
+<li>三种基本结构</li>
+<li>顺序结构</li>
+<li>选择结构</li>
+<li>循环结构 1. 当型循环结构(while) 2. 直到型循环结构(until)</li>
+</ol>
+<h3 id="用n-s流程图表示算法">用N-S流程图表示算法</h3>
+<h3 id="用伪代码表示算法">用伪代码表示算法</h3>
+<h3 id="用计算机语言表示算法">用计算机语言表示算法</h3>
+<h2 id="结构化程序设计方法">结构化程序设计方法</h2>
+<ol type="1">
+<li>自顶向下</li>
+<li>逐步细化</li>
+<li>模块化设计</li>
+<li>结构化编码</li>
+</ol>
+<h1 id="第三章-最简单的c程序设计顺序程序设计">第三章 最简单的C程序设计————顺序程序设计</h1>
+<h2 id="顺序程序设计举例">顺序程序设计举例</h2>
+<h2 id="数据的表现形式及运算">数据的表现形式及运算</h2>
+<h3 id="常量和变量">常量和变量</h3>
+<ol type="1">
+<li>常量 1. 整型常量:如1000,123,0,-23 2. 实型常量 ①十进制小数形式:由数字和小数点组成,如12.234,-232.2321,0.0 ②指数形式:如12.36e3(12.36×10^3),e/E之前必须有数字且后面必须为整数 3. 字符常量 ①普通字符:<strong>单撇号</strong>括起来的<strong>一个</strong>字符,如'a','A' ②转义字符:以,如'','' 4. 字符串常量:单撇号只能包含一个字符,双撇号可包含一个字符串,如&quot;body&quot;,&quot;123&quot; 5. 符号常量:用#define指令,指定用一个符号名称代表一个常量,如<code>#define PI 3.1315</code>(含义清楚,一改全改)</li>
+<li>变量:代表一个有名字的,具有特定属性的一个存储单元</li>
+<li>常变量 1. 定义变量前加关键字<strong>const</strong> 2. 与变量的异同:常变量句有变量的基本属性--有类型,占存储单元;不允许修改 3. 常变量是有名字的不变量, 常量是无名字的不变量,有名字便于在程序中被引用 4. 对比符号常量</li>
+<li>标识符 1. 用来命名的有效字符序列 2. 第一个字符必须为字母或下划线 3. 由字母,数字,下划线组成 4. 区分大小写 5. 变量名一般小</li>
+</ol>
+<h3 id="数据类型">数据类型</h3>
+<blockquote>
+<p>计算机进行的计算不是抽象的理论值计算,而是用工程的方法实现的计算,许多情况下只能得到近似的结果 基本类型和枚举类型的值都是数值,统称为<strong>算术类型</strong>;算术类型和指针类型统称为<strong>纯量类型</strong>,因为其变量的值是以数字来表示的 枚举类型是程序中用户定义的整数类型 数组类型和结构体类型统称为组合类型,共用体类型不属于组合类型,因为同一时间内只有一个成员具有值 函数类型用来定义函数,描述一个函数的接口 1. 基本类型 1. 整型类型 1. 基本类型(int) 2. 短整型(short int) 3. 长整型(long int) 4. 字符型(char) 5. <em>双长整型(long long) 6. </em>布尔型(bool) 2. 浮点类型 1. 单精度浮点型(float) 2. 双精度浮点型(double) 3. 复数浮点型(float_complex,double_complex,long long_complex) 2. 枚举类型 3. 空类型 4. 派生类型 1. 指针类型(*) 2. 数组类型([]) 3. 结构体类型(struct) 4. 共用体类型(union) 5. 函数类型</p>
+</blockquote>
+<h3 id="整型数据">整型数据</h3>
+<ol type="1">
+<li>整型数据的分类</li>
+</ol>
+]]></content>
+      <categories>
+        <category>IT</category>
+      </categories>
+      <tags>
+        <tag>C语言</tag>
+      </tags>
   </entry>
   <entry>
     <title>Vue</title>
-    <url>/2020/03/vue-records/</url>
-    <content><![CDATA[]]></content>
+    <url>/2020/03/vueGuide/22/</url>
+    <content><![CDATA[<h1 id="vue实例化参数">Vue实例化参数</h1>
+<h2 id="watch">watch</h2>
+<blockquote>
+<p>监听一个值的变换，并调用因变换需要执行的方法 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">data:&#123;</span><br><span class="line">  a:1,</span><br><span class="line">  b:&#123;</span><br><span class="line">    e:3</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line">watch:&#123;</span><br><span class="line">  a:function(val,oldVal)&#123;</span><br><span class="line">    console.log(&#39;new: %s,old: %s&#39;,val,oldVal)</span><br><span class="line">  &#125;,</span><br><span class="line">  b:&#123;</span><br><span class="line">    handler:function(val,oldVal)&#123;&#125;,</span><br><span class="line">    deep:true</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+</blockquote>
+]]></content>
       <categories>
         <category>IT</category>
       </categories>
@@ -25,68 +286,89 @@
   </entry>
   <entry>
     <title>themeNextGuide</title>
-    <url>/2020/03/themeNextGuide/</url>
-    <content><![CDATA[<h1 id="给博客添加fork"><a href="#给博客添加fork" class="headerlink" title="给博客添加fork"></a>给博客添加fork</h1><ol>
-<li>打开 <a href="http://tholman.com/github-corners/" target="_blank" rel="noopener">http://tholman.com/github-corners/</a></li>
+    <url>/2020/03/themeNextGuide/21/</url>
+    <content><![CDATA[<h1 id="给博客添加fork">给博客添加fork</h1>
+<ol type="1">
+<li>打开 <a href="http://tholman.com/github-corners/" target="_blank" rel="noopener" class="uri">http://tholman.com/github-corners/</a></li>
 <li>选择一个喜欢的样式拷贝</li>
 <li>打开theme/next/layout/_layout.swig</li>
 <li>将复制内容粘贴在<code>&lt;div class=&quot;headband&quot;&gt;&lt;/div&gt;</code>代码后</li>
 </ol>
-<h1 id="修改文章内链接样式"><a href="#修改文章内链接样式" class="headerlink" title="修改文章内链接样式"></a>修改文章内链接样式</h1><ol>
+<h1 id="修改文章内链接样式">修改文章内链接样式</h1>
+<ol type="1">
 <li>打开 theme/next/source/css/_common/components/post/post.styl</li>
-<li>最下面添加代码<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">.post-body a&#123;</span><br><span class="line">  border-bottom: none;</span><br><span class="line">  &amp;:hover&#123;</span><br><span class="line">    color: purple;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-</li>
+<li>最下面添加代码 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">.post-body a&#123;</span><br><span class="line">  border-bottom: none;</span><br><span class="line">  &amp;:hover&#123;</span><br><span class="line">    color: purple;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
 </ol>
-<h1 id="修改文章底部带-的标签"><a href="#修改文章底部带-的标签" class="headerlink" title="修改文章底部带#的标签"></a>修改文章底部带#的标签</h1><ol>
+<h1 id="修改文章底部带的标签">修改文章底部带#的标签</h1>
+<ol type="1">
 <li>打开theme/next/layout/_macro/post.swig</li>
 <li>359行左右,将<code># </code>前的#替换为<code>&lt;i class=&quot;fas fa-tag&quot;&gt;&lt;/i&gt;</code></li>
 </ol>
-<h1 id="配置Valine评论功能"><a href="#配置Valine评论功能" class="headerlink" title="配置Valine评论功能"></a>配置Valine评论功能</h1><ol>
+<h1 id="配置valine评论功能">配置Valine评论功能</h1>
+<ol type="1">
 <li>修改主题目录配置文件_config.yml</li>
 <li>定位到valine</li>
 <li>enable改为true</li>
 <li>从leancloud获取appid和appkey</li>
-<li>其它配置看文档 <a href="https://valine.js.org" target="_blank" rel="noopener">https://valine.js.org</a></li>
+<li>其它配置看文档 <a href="https://valine.js.org" target="_blank" rel="noopener" class="uri">https://valine.js.org</a></li>
 </ol>
-<h1 id="配置来必力评论"><a href="#配置来必力评论" class="headerlink" title="配置来必力评论"></a>配置来必力评论</h1><ol>
-<li>来必力官网: <a href="https://livere.com/" target="_blank" rel="noopener">https://livere.com/</a></li>
+<h1 id="配置来必力评论">配置来必力评论</h1>
+<ol type="1">
+<li>来必力官网: <a href="https://livere.com/" target="_blank" rel="noopener" class="uri">https://livere.com/</a></li>
 <li>安装City免费版本</li>
 <li>获取代码管理中data-uid的值</li>
 <li>打开主题的_config.yml文件定位到<strong>livere_uid</strong></li>
 <li>将<strong>fulivere_uid</strong>的值设置为<strong>livere_uid</strong></li>
 </ol>
-<h1 id="配置Gitment评论"><a href="#配置Gitment评论" class="headerlink" title="配置Gitment评论"></a>配置Gitment评论</h1><p>暂不使用该评论</p>
-<h1 id="搜索功能"><a href="#搜索功能" class="headerlink" title="搜索功能"></a>搜索功能</h1><ol>
+<h1 id="配置gitment评论">配置Gitment评论</h1>
+<p>暂不使用该评论</p>
+<h1 id="搜索功能">搜索功能</h1>
+<ol type="1">
 <li>nexT官网-&gt;第三方服务-&gt;搜索服务-&gt;Local Search</li>
 <li><code>npm install hexo-generator-searchdb --save</code></li>
-<li>站点配置文件增加以下代码<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">search:</span><br><span class="line">  path: search.xml</span><br><span class="line">  field: post</span><br><span class="line">  format: html</span><br><span class="line">  limit: 10000</span><br></pre></td></tr></table></figure></li>
+<li>站点配置文件增加以下代码 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">search:</span><br><span class="line">  path: search.xml</span><br><span class="line">  field: post</span><br><span class="line">  format: html</span><br><span class="line">  limit: 10000</span><br></pre></td></tr></table></figure></li>
 <li>主题配置文件定位到<strong>local_search</strong>,将其值设为<strong>true</strong></li>
 </ol>
-<h1 id="配置不蒜子统计功能-没有值"><a href="#配置不蒜子统计功能-没有值" class="headerlink" title="配置不蒜子统计功能(没有值)"></a>配置不蒜子统计功能(没有值)</h1><ol>
+<h1 id="配置不蒜子统计功能没有值">配置不蒜子统计功能(没有值)</h1>
+<ol type="1">
 <li>由于网址更新需要对文件做更改</li>
-<li>打开themes/next/layout/third-party/analytics/busuanzi-counter.swig </li>
+<li>打开themes/next/layout/third-party/analytics/busuanzi-counter.swig</li>
 <li>对比不蒜子官网将script的src的属性进行更改即可</li>
 </ol>
-<h1 id="分享服务"><a href="#分享服务" class="headerlink" title="分享服务"></a>分享服务</h1><ol>
+<h1 id="分享服务">分享服务</h1>
+<ol type="1">
 <li>主题配置文件定位到<strong>jiathis</strong></li>
 <li><strong>jiathis</strong>值设为true</li>
 <li>该分享方式已关闭,推荐使用百度分享</li>
 </ol>
-<h1 id="加载效果"><a href="#加载效果" class="headerlink" title="加载效果"></a>加载效果</h1><ol>
+<h1 id="加载效果">加载效果</h1>
+<ol type="1">
 <li>定位到主题配置文件<strong>pace</strong></li>
 <li>将<strong>pace</strong>设为true</li>
 <li><strong>pace_theme</strong>设置为偏爱效果</li>
 </ol>
-<h1 id="隐藏底部的强力驱动"><a href="#隐藏底部的强力驱动" class="headerlink" title="隐藏底部的强力驱动"></a>隐藏底部的强力驱动</h1><ol>
+<h1 id="隐藏底部的强力驱动">隐藏底部的强力驱动</h1>
+<ol type="1">
 <li>首选方案:主题配置文件的<strong>power</strong>和<strong>theme</strong>值设为false</li>
 <li>打开themes/next/layout/_partials/footer.swig里进行删除</li>
 </ol>
-<h1 id="字数统计和阅读时长"><a href="#字数统计和阅读时长" class="headerlink" title="字数统计和阅读时长"></a>字数统计和阅读时长</h1><ol>
+<h1 id="字数统计和阅读时长">字数统计和阅读时长</h1>
+<ol type="1">
 <li><code>npm i hexo-wordcount --save</code></li>
 <li>设置主题配置文件<strong>post_wordcount</strong>的<strong>wordcount</strong>和<strong>min2read</strong>值为true</li>
 </ol>
-<h1 id="鼠标点击效果"><a href="#鼠标点击效果" class="headerlink" title="鼠标点击效果"></a>鼠标点击效果</h1><h1 id="代码雨背景特效"><a href="#代码雨背景特效" class="headerlink" title="代码雨背景特效"></a>代码雨背景特效</h1><h1 id="当前时间展示"><a href="#当前时间展示" class="headerlink" title="当前时间展示"></a>当前时间展示</h1><h1 id="菜单的数量统计"><a href="#菜单的数量统计" class="headerlink" title="菜单的数量统计"></a>菜单的数量统计</h1><h1 id="音乐播放"><a href="#音乐播放" class="headerlink" title="音乐播放"></a>音乐播放</h1><h1 id="菜单的圆角效果-有bug"><a href="#菜单的圆角效果-有bug" class="headerlink" title="菜单的圆角效果(有bug)"></a>菜单的圆角效果(有bug)</h1>]]></content>
+<h1 id="开启mathjax支持">开启MathJax支持</h1>
+<ol type="1">
+<li>在blog根目录下依次执行: <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm uninstall hexo-renderer-marked --save</span><br><span class="line">npm install hexo-renderer-pandoc --save</span><br></pre></td></tr></table></figure> 目的是更换渲染器:Hexo默认使用<code>hexo-renderer-marked</code>来渲染Markdown，但是这个渲染器在解析Latex语法的时候会和Markdown本身的语法符号产生冲突</li>
+<li>配置主题_config.yml: <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"># MathJax Support</span><br><span class="line">mathjax:</span><br><span class="line">  enable: true</span><br><span class="line">  #per_page为true时,需要在使用Latex语法的页面加上&#96;mathjax: true&#96;才能生效,为false时,所有页面都生效</span><br><span class="line">  per_page: true</span><br><span class="line">  cdn:</span><br></pre></td></tr></table></figure></li>
+</ol>
+<h1 id="鼠标点击效果">鼠标点击效果</h1>
+<h1 id="代码雨背景特效">代码雨背景特效</h1>
+<h1 id="当前时间展示">当前时间展示</h1>
+<h1 id="菜单的数量统计">菜单的数量统计</h1>
+<h1 id="音乐播放">音乐播放</h1>
+<h1 id="菜单的圆角效果有bug">菜单的圆角效果(有bug)</h1>
+]]></content>
       <categories>
         <category>IT</category>
       </categories>
@@ -98,74 +380,149 @@
   </entry>
   <entry>
     <title>MarkDown语法</title>
-    <url>/2020/03/mDSyntaxGuide/</url>
-    <content><![CDATA[<ol>
+    <url>/2020/03/mDSyntaxGuide/21/</url>
+    <content><![CDATA[<ol type="1">
 <li>兼容HTML</li>
-<li>特殊字符自动转换<ol>
+<li>特殊字符自动转换
+<ol type="1">
 <li>&lt; : &lt;</li>
 <li>&amp; : &amp;</li>
-</ol>
-</li>
-<li>标题<ol>
+</ol></li>
+<li>标题
+<ol start="3" type="1">
 <li>1到6个#</li>
 <li>任何数量的=或-</li>
-</ol>
-</li>
-<li>引用<ol>
+</ol></li>
+<li>引用
+<ol start="5" type="1">
 <li>&gt;</li>
 <li>数量不同，嵌套数不同</li>
 <li>区块内可用其他md语法</li>
-</ol>
-</li>
-<li>列表<ol>
+</ol></li>
+<li>列表
+<ol start="8" type="1">
 <li>*或- : d无序列表</li>
 <li>数字 + . : 有序列表</li>
-</ol>
-</li>
-<li>代码区块<ol>
+</ol></li>
+<li>代码区块
+<ol start="10" type="1">
 <li>缩进4个空格或一个制表符</li>
 <li>注意代码区块的分隔，否则会无效</li>
-</ol>
-</li>
-<li>分割线<ol>
+</ol></li>
+<li>分割线
+<ol start="12" type="1">
 <li>三个以上的*或-或=</li>
 <li>行内可有空格，但不能有其他符号</li>
-</ol>
-</li>
-<li>链接<ol>
+</ol></li>
+<li>链接
+<ol start="14" type="1">
 <li>行内式:方括号后紧接圆括号并插入网址链接，也可在网址后面加上title，title用双引号包起来</li>
-<li>参考式<ol>
-<li>[id]: <a href="http://example.com/" target="_blank" rel="noopener">http://example.com/</a> “Optional Title Here”</li>
-<li>This is [an example][id] reference-style link.</li>
-</ol>
-</li>
-</ol>
-</li>
-<li>强调<ol>
+<li>参考式
+<ol type="1">
+<li></li>
+<li>This is <a href="url/to/image" title="Optional title attribute">an example</a> reference-style link.</li>
+</ol></li>
+</ol></li>
+<li>强调
+<ol start="16" type="1">
 <li>倾斜: 用一个*或_包围会被转成用&lt;em&gt;标签包围</li>
 <li>加粗: 用两个*或_包围会被转成用&lt;strong&gt;标签包围</li>
-</ol>
-</li>
-<li>代码<ol>
+</ol></li>
+<li>代码
+<ol start="18" type="1">
 <li>标记小段行内代码: 用反引号``包起来</li>
-<li>多行用```包裹</li>
+<li>多行开始和结束处用三个`包裹</li>
 <li>代码区段内使用反引号，可以用多个反引号来做最外层包装，起区分作用</li>
-</ol>
-</li>
-<li>图片<ol>
-<li>行内式<ol>
-<li>惊叹号 + 方括号（图片的替代文字）+ 普通括号（图片网址）+ [“title文字”]</li>
-<li><img src="/path/to/img.jpg" alt="Alt text" title="Optional title"></li>
-</ol>
-</li>
-<li>参考式<ol>
-<li>[id]: url/to/image  “Optional title attribute”</li>
-<li>![Alt text][id]</li>
+</ol></li>
+<li>图片
+<ol start="21" type="1">
+<li>行内式
+<ol type="1">
+<li>惊叹号 + 方括号（图片的替代文字）+ 普通括号（图片网址）+ [&quot;title文字&quot;]</li>
+<li><img src="/path/to/img.jpg" title="Optional title" alt="Alt text" /></li>
+</ol></li>
+<li>参考式
+<ol type="1">
+<li></li>
+<li><img src="url/to/image" title="Optional title attribute" alt="Alt text" /></li>
 <li>可使用img标签书写指定宽高的图片</li>
+</ol></li>
+</ol></li>
+<li>表格</li>
 </ol>
-</li>
-</ol>
-</li>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: center;">简写</th>
+<th style="text-align: center;">全称</th>
+<th style="text-align: center;">中文名称</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">OJ</td>
+<td style="text-align: center;">Online Judge</td>
+<td style="text-align: center;">在线判题系统</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">AC</td>
+<td style="text-align: center;">Accepted</td>
+<td style="text-align: center;">通过</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">WA</td>
+<td style="text-align: center;">Wrong Answer</td>
+<td style="text-align: center;">答案错误</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">TLE</td>
+<td style="text-align: center;">Time Limit Exceed</td>
+<td style="text-align: center;">超时</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">OLE</td>
+<td style="text-align: center;">Output Limit Exceed</td>
+<td style="text-align: center;">超过输出限制</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">MLE</td>
+<td style="text-align: center;">Memory Limit Exceed</td>
+<td style="text-align: center;">超内存</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">RE</td>
+<td style="text-align: center;">Runtime Error</td>
+<td style="text-align: center;">运行时错误</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">PE</td>
+<td style="text-align: center;">Presentation Error</td>
+<td style="text-align: center;">格式错误</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">CE</td>
+<td style="text-align: center;">Compile Error</td>
+<td style="text-align: center;">无法编译</td>
+</tr>
+</tbody>
+</table>
+<ol start="13" type="1">
+<li>数学方面 <span class="math display">\[
+\left[
+\begin{matrix}
+ 1      &amp; 2      &amp; \cdots &amp; 4      \\
+ 7      &amp; 6      &amp; \cdots &amp; 5      \\
+ \vdots &amp; \vdots &amp; \ddots &amp; \vdots \\
+ 8      &amp; 9      &amp; \cdots &amp; 0      \\
+\end{matrix}
+\right]
+\]</span> ------ <span class="math display">\[
+\begin{cases}
+    a_{11}x_1&amp;+&amp;a_{12}x_2&amp;+&amp;\cdots&amp;+a_{1n}x_n&amp;=&amp;b_1\\
+    &amp;&amp;&amp;&amp;\vdots\\
+    a_{n1}x_1&amp;+&amp;a_{n2}x_2&amp;+&amp;\cdots&amp;+a_{nn}x_n&amp;=&amp;b_n&amp;           
+\end{cases}
+\]</span></li>
 </ol>
 ]]></content>
       <categories>
