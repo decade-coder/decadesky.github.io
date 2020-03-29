@@ -1,15 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>概率论</title>
+    <url>/2020/03/probabilityTheory/28/</url>
+    <content><![CDATA[
+]]></content>
+      <categories>
+        <category>数学</category>
+        <category>概率论</category>
+      </categories>
+  </entry>
+  <entry>
     <title>计划</title>
     <url>/2020/03/plan/28/</url>
     <content><![CDATA[<ol type="1">
-<li>公务员 + 事业单位</li>
+<li>考研 + 公务员 + 事业单位</li>
 <li>C语言</li>
 <li>机器学习-&gt;深度学习-&gt;flyai</li>
 <li>线性代数</li>
 <li>Vue全家桶 + NodeJs + MySql</li>
 </ol>
+<h1 id="考研">考研</h1>
+<h2 id="研招网-httpsyz.chsi.com.cn">研招网 <a href="https://yz.chsi.com.cn/" target="_blank" rel="noopener" class="uri">https://yz.chsi.com.cn/</a></h2>
 ]]></content>
       <categories>
         <category>学习计划</category>
@@ -368,6 +380,22 @@
 <h1 id="菜单的数量统计">菜单的数量统计</h1>
 <h1 id="音乐播放">音乐播放</h1>
 <h1 id="菜单的圆角效果有bug">菜单的圆角效果(有bug)</h1>
+<h1 id="分页显示问题">分页显示问题</h1>
+<h2 id="问题描述">问题描述</h2>
+<p>分页跳转箭头无法正常显示,显示如下代码 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;i class&#x3D;&quot;fa fa-angle-left&quot;&gt;&lt;&#x2F;i&gt;</span><br><span class="line">&lt;i class&#x3D;&quot;fa fa-angle-right&quot;&gt;&lt;&#x2F;i&gt;</span><br></pre></td></tr></table></figure></p>
+<h2 id="解决方案">解决方案</h2>
+<ol type="1">
+<li>打开themes/next/layout/_partials/pagination.swig文件</li>
+<li>修改文件内容为 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#123;% if page.prev or page.next %&#125;</span><br><span class="line">  &lt;nav class&#x3D;&quot;pagination&quot;&gt;</span><br><span class="line">    &#123;&#123;</span><br><span class="line">      paginator(&#123;</span><br><span class="line">        prev_text: &#39;&lt;i class&#x3D;&quot;fa fa-angle-left&quot; aria-label&#x3D;&quot;&#39;+__(&#39;accessibility.prev_page&#39;)+&#39;&quot;&gt;&lt;&#x2F;i&gt;&#39;,</span><br><span class="line">        next_text: &#39;&lt;i class&#x3D;&quot;fa fa-angle-right&quot; aria-label&#x3D;&quot;&#39;+__(&#39;accessibility.next_page&#39;)+&#39;&quot;&gt;&lt;&#x2F;i&gt;&#39;,</span><br><span class="line">        mid_size: 1,</span><br><span class="line">        escape: false</span><br><span class="line">      &#125;)</span><br><span class="line">    &#125;&#125;</span><br><span class="line">  &lt;&#x2F;nav&gt;</span><br><span class="line">&#123;% endif %&#125;</span><br></pre></td></tr></table></figure></li>
+</ol>
+<h1 id="侧边栏头像下面的日志链接错误">侧边栏头像下面的日志链接错误</h1>
+<h2 id="问题描述-1">问题描述</h2>
+<p>点击日志,跳转路径为<code>xxx/archives/%7C%7C%20archive/</code></p>
+<h2 id="解决方案-1">解决方案</h2>
+<ol type="1">
+<li>打开themes/next/layout/_macro/sidebar.swig文件</li>
+<li>将52行代码替换 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;a href&#x3D;&quot;&#123;&#123; url_for(theme.menu.archives).split(&#39;||&#39;)[0] | trim &#125;&#125;&quot;&gt;</span><br></pre></td></tr></table></figure> 替换为 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;a href&#x3D;&quot;&#123;&#123; url_for(config.archive_dir) | trim &#125;&#125;&quot;&gt;</span><br></pre></td></tr></table></figure></li>
+</ol>
 ]]></content>
       <categories>
         <category>IT</category>
@@ -381,75 +409,47 @@
   <entry>
     <title>MarkDown语法</title>
     <url>/2020/03/mDSyntaxGuide/21/</url>
-    <content><![CDATA[<ol type="1">
-<li>兼容HTML</li>
-<li>特殊字符自动转换
-<ol type="1">
-<li>&lt; : &lt;</li>
-<li>&amp; : &amp;</li>
-</ol></li>
-<li>标题
-<ol start="3" type="1">
-<li>1到6个#</li>
-<li>任何数量的=或-</li>
-</ol></li>
-<li>引用
-<ol start="5" type="1">
-<li>&gt;</li>
-<li>数量不同，嵌套数不同</li>
-<li>区块内可用其他md语法</li>
-</ol></li>
-<li>列表
-<ol start="8" type="1">
-<li>*或- : d无序列表</li>
-<li>数字 + . : 有序列表</li>
-</ol></li>
-<li>代码区块
-<ol start="10" type="1">
-<li>缩进4个空格或一个制表符</li>
-<li>注意代码区块的分隔，否则会无效</li>
-</ol></li>
-<li>分割线
-<ol start="12" type="1">
-<li>三个以上的*或-或=</li>
-<li>行内可有空格，但不能有其他符号</li>
-</ol></li>
-<li>链接
-<ol start="14" type="1">
-<li>行内式:方括号后紧接圆括号并插入网址链接，也可在网址后面加上title，title用双引号包起来</li>
-<li>参考式
-<ol type="1">
-<li></li>
-<li>This is <a href="url/to/image" title="Optional title attribute">an example</a> reference-style link.</li>
-</ol></li>
-</ol></li>
-<li>强调
-<ol start="16" type="1">
-<li>倾斜: 用一个*或_包围会被转成用&lt;em&gt;标签包围</li>
-<li>加粗: 用两个*或_包围会被转成用&lt;strong&gt;标签包围</li>
-</ol></li>
-<li>代码
-<ol start="18" type="1">
-<li>标记小段行内代码: 用反引号``包起来</li>
-<li>多行开始和结束处用三个`包裹</li>
-<li>代码区段内使用反引号，可以用多个反引号来做最外层包装，起区分作用</li>
-</ol></li>
-<li>图片
-<ol start="21" type="1">
-<li>行内式
-<ol type="1">
-<li>惊叹号 + 方括号（图片的替代文字）+ 普通括号（图片网址）+ [&quot;title文字&quot;]</li>
-<li><img src="/path/to/img.jpg" title="Optional title" alt="Alt text" /></li>
-</ol></li>
-<li>参考式
-<ol type="1">
-<li></li>
-<li><img src="url/to/image" title="Optional title attribute" alt="Alt text" /></li>
-<li>可使用img标签书写指定宽高的图片</li>
-</ol></li>
-</ol></li>
-<li>表格</li>
-</ol>
+    <content><![CDATA[<h1 id="兼容html">兼容HTML</h1>
+<h1 id="特殊字符自动转换">特殊字符自动转换</h1>
+<pre><code>1. &lt; : &amp;lt;
+2. &amp; : &amp;amp;</code></pre>
+<h1 id="标题">标题</h1>
+<pre><code>1. 1到6个#
+2. 任何数量的=或-</code></pre>
+<h1 id="引用">引用</h1>
+<pre><code>1. \&gt;
+2. 数量不同，嵌套数不同
+3. 区块内可用其他md语法</code></pre>
+<h1 id="列表">列表</h1>
+<pre><code>1. \*或- : d无序列表
+2.  数字 + . : 有序列表</code></pre>
+<h1 id="代码区块">代码区块</h1>
+<pre><code>1. 缩进4个空格或一个制表符
+2. 注意代码区块的分隔，否则会无效</code></pre>
+<h1 id="分割线">分割线</h1>
+<pre><code>1. 三个以上的\*或-或=
+2. 行内可有空格，但不能有其他符号</code></pre>
+<h1 id="链接">链接</h1>
+<pre><code>1. 行内式:方括号后紧接圆括号并插入网址链接，也可在网址后面加上title，title用双引号包起来
+2. 参考式
+    1. [id]: http://example.com/ &quot;Optional Title Here&quot;
+    2. This is [an example][id] reference-style link.</code></pre>
+<h1 id="强调">强调</h1>
+<pre><code>1. 倾斜: 用一个*或_包围会被转成用\&lt;em\&gt;标签包围
+2. 加粗: 用两个*或_包围会被转成用\&lt;strong\&gt;标签包围</code></pre>
+<h1 id="代码">代码</h1>
+<pre><code>1. 标记小段行内代码: 用反引号``包起来
+2. 多行开始和结束处用三个`包裹
+3. 代码区段内使用反引号，可以用多个反引号来做最外层包装，起区分作用</code></pre>
+<h1 id="图片">图片</h1>
+<pre><code>1. 行内式
+    1. 惊叹号 + 方括号（图片的替代文字）+ 普通括号（图片网址）+ [&quot;title文字&quot;]
+    2. ![Alt text](/path/to/img.jpg &quot;Optional title&quot;)
+2. 参考式
+    1. [id]: url/to/image  &quot;Optional title attribute&quot;
+    2. ![Alt text][id]
+    3. 可使用img标签书写指定宽高的图片</code></pre>
+<h1 id="表格">表格</h1>
 <table>
 <thead>
 <tr class="header">
@@ -506,22 +506,51 @@
 </tr>
 </tbody>
 </table>
-<ol start="13" type="1">
-<li>数学方面 <span class="math display">\[
-\left[
-\begin{matrix}
+<h1 id="数学">数学</h1>
+<h2 id="矩阵">矩阵</h2>
+<ol type="1">
+<li>不带括号的矩阵 <span class="math display">\[
+  \begin{matrix}
+1 &amp; 2 &amp; 3 \\
+4 &amp; 5 &amp; 6 \\
+7 &amp; 8 &amp; 9
+  \end{matrix} \tag{1}
+\]</span></li>
+<li>带小括号()的矩阵 <span class="math display">\[
+ \begin{pmatrix}
+ 1 &amp; 2 &amp; 3 \\
+  4 &amp; 5 &amp; 6 \\
+  7 &amp; 8 &amp; 9
+ \end{pmatrix} \tag{2}
+\]</span></li>
+<li>带中括号[]的矩阵 <span class="math display">\[
+ \begin{bmatrix}
+  1 &amp; 2 &amp; 3 \\
+  4 &amp; 5 &amp; 6 \\
+  7 &amp; 8 &amp; 9
+  \end{bmatrix} \tag{3}
+\]</span></li>
+<li>带大括号{}的矩阵 <span class="math display">\[
+ \begin{Bmatrix}
+ 1 &amp; 2 &amp; 3 \\
+ 4 &amp; 5 &amp; 6 \\
+ 7 &amp; 8 &amp; 9
+ \end{Bmatrix}\tag{4}
+\]</span></li>
+<li>内敛小矩阵 <span class="math display">\[
+\begin{smallmatrix}
+1 &amp; 2 &amp; 3 \\
+4 &amp; 5 &amp; 6 \\
+7 &amp; 8 &amp; 9
+\end{smallmatrix}
+\]</span></li>
+<li>带省略号的矩阵 &gt;数学公式中常见的省略号有两种，，。 <span class="math display">\[
+\begin{bmatrix}
  1      &amp; 2      &amp; \cdots &amp; 4      \\
  7      &amp; 6      &amp; \cdots &amp; 5      \\
  \vdots &amp; \vdots &amp; \ddots &amp; \vdots \\
  8      &amp; 9      &amp; \cdots &amp; 0      \\
-\end{matrix}
-\right]
-\]</span> ------ <span class="math display">\[
-\begin{cases}
-    a_{11}x_1&amp;+&amp;a_{12}x_2&amp;+&amp;\cdots&amp;+a_{1n}x_n&amp;=&amp;b_1\\
-    &amp;&amp;&amp;&amp;\vdots\\
-    a_{n1}x_1&amp;+&amp;a_{n2}x_2&amp;+&amp;\cdots&amp;+a_{nn}x_n&amp;=&amp;b_n&amp;           
-\end{cases}
+\end{bmatrix}
 \]</span></li>
 </ol>
 ]]></content>
